@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>تطبيقي | كل ما تحتاجه في تطبيق واحد</title>
+  <meta name="description" content="حمّل تطبيقي وابدأ تجربتك بسهولة. أداء سريع، أمان وخصوصية، وتصميم عصري.">
+  <meta name="theme-color" content="#1fd1c0">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='60' cy='38' r='28' fill='%231fd1c0'/%3E%3Ccircle cx='36' cy='64' r='24' fill='%23111'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- زخارف الخلفية -->
+  <div class="blob blob-black b1" aria-hidden="true"></div>
+  <div class="blob blob-teal b2" aria-hidden="true"></div>
+  <div class="blob blob-black b3" aria-hidden="true"></div>
+
+  <!-- الشريط العلوي -->
+  <header class="nav" id="top">
+    <div class="container nav-inner">
+      <a href="#home" class="logo" aria-label="تطبيقي">
+        <span class="logo-mark"><i></i><i></i></span>
+        <span class="logo-text">تطبيقي</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="active">الرئيسية</a>
+        <a href="#features">المميزات</a>
+        <a href="#install">طريقة التثبيت</a>
+        <a href="#faq">الأسئلة الشائعة</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn btn-outline btn-sm js-download">
+          <span>تحميل التطبيق</span>
+          <svg viewBox="0 0 24 24" class="ico"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 19h14" /></svg>
+        </button>
+        <button class="burger" id="burger" aria-label="القائمة"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- الهيرو -->
+    <section class="hero container" id="home">
+      <div class="hero-text">
+        <h1>كل ما تحتاجه،<br><span class="grad">في تطبيق واحد</span></h1>
+        <p>حمُل التطبيق وابدأ تجربتك بسهولة.</p>
+        <div class="hero-btns">
+          <button class="btn btn-primary js-download">
+            <span>تحميل التطبيق</span>
+            <svg viewBox="0 0 24 24" class="ico"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 19h14" /></svg>
+          </button>
+          <a href="#features" class="btn btn-ghost">اكتشف المميزات</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hv-circle"></div>
+        <div class="hv-blob"></div>
+        <span class="spark s1"></span><span class="spark s2"></span>
+        <span class="dot d1"></span><span class="dot d2"></span>
+
+        <div class="phone">
+          <div class="notch"></div>
+          <div class="screen">
+            <div class="app-logo">
+              <span class="logo-mark sm"><i></i><i></i></span>
+              <b>تطبيقي</b>
+              <small>تطبيقك الأجمل كل يوم</small>
+            </div>
+            <div class="app-banner">
+              <svg viewBox="0 0 64 48"><path d="M2 44L22 14l12 16 8-10 20 24z" fill="rgba(255,255,255,.85)"/></svg>
+            </div>
+            <div class="app-row"><span>الأقسام</span><i class="chip"></i></div>
+            <div class="app-row"><span>الإعدادات</span><i class="chip"></i></div>
+            <div class="app-row"><span>المساعدة</span><i class="chip"></i></div>
+            <div class="app-tabs">
+              <div><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg><em>التطبيقات</em></div>
+              <div><svg viewBox="0 0 24 24"><path d="M12 21s-8-5-8-11a4.5 4.5 0 018-2.5A4.5 4.5 0 0120 10c0 6-8 11-8 11z"/></svg><em>المفضلة</em></div>
+              <div class="on"><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8v10h-6v-6H9v6H3z"/></svg><em>الرئيسية</em></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- المميزات -->
+    <section class="section container" id="features">
+      <h2 class="title">مميزات تجعل تجربتك أفضل</h2>
+      <div class="title-line"></div>
+
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card-ico">
+            <svg viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/></svg>
+          </div>
+          <h3>تصميم عصري</h3>
+          <p>واجهة بسيطة ومريحة تتناسب مع جميع الأجهزة.</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-ico">
+            <svg viewBox="0 0 24 24"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg>
+          </div>
+          <h3>أمان وخصوصية</h3>
+          <p>بياناتك في أمان تام ومحمية دائماً.</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-ico">
+            <svg viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg>
+          </div>
+          <h3>أداء سريع</h3>
+          <p>تجربة سلسة وسريعة في جميع الأوقات.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- طريقة التثبيت -->
+    <section class="section container" id="install">
+      <h2 class="title">طريقة التثبيت</h2>
+      <div class="title-line"></div>
+
+      <div class="steps">
+        <div class="step reveal"><b>1</b><h3>اضغط تحميل</h3><p>اضغط على زر تحميل التطبيق من الصفحة.</p></div>
+        <div class="step reveal"><b>2</b><h3>افتح الملف</h3><p>افتح ملف APK بعد انتهاء التنزيل.</p></div>
+        <div class="step reveal"><b>3</b><h3>اسمح بالتثبيت</h3><p>فعّل خيار التثبيت من مصادر غير معروفة إذا طُلب منك.</p></div>
+        <div class="step reveal"><b>4</b><h3>استمتع</h3><p>افتح التطبيق وابدأ تجربتك فوراً.</p></div>
+      </div>
+    </section>
+
+    <!-- الأسئلة الشائعة -->
+    <section class="section container" id="faq">
+      <h2 class="title">الأسئلة الشائعة</h2>
+      <div class="title-line"></div>
+
+      <div class="faq">
+        <details class="reveal">
+          <summary>هل التطبيق مجاني؟</summary>
+          <p>نعم، سيكون التطبيق متاحاً للتحميل مجاناً عند إطلاقه.</p>
+        </details>
+        <details class="reveal">
+          <summary>على أي الأجهزة يعمل؟</summary>
+          <p>يعمل على أجهزة أندرويد عبر ملف APK.</p>
+        </details>
+        <details class="reveal">
+          <summary>متى سيتوفر التطبيق؟</summary>
+          <p>التطبيق سوف يتوفر قريباً، ترقّب الإطلاق!</p>
+        </details>
+        <details class="reveal">
+          <summary>هل بياناتي آمنة؟</summary>
+          <p>خصوصيتك أولويتنا، وبياناتك محمية دائماً.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- دعوة للتجربة -->
+    <section class="container">
+      <div class="cta reveal">
+        <div class="cta-blob l"></div>
+        <div class="cta-blob r"></div>
+        <h2>جاهز للتجربة؟</h2>
+        <p>قم بتحميل التطبيق الآن وابدأ رحلتك بسهولة.</p>
+        <button class="btn btn-primary btn-lg js-download">
+          <span>تحميل التطبيق الآن</span>
+          <svg viewBox="0 0 24 24" class="ico"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 19h14" /></svg>
+        </button>
+        <div class="platform">
+          <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M6 18c0 .6.4 1 1 1h1v3a1.5 1.5 0 003 0v-3h2v3a1.5 1.5 0 003 0v-3h1c.6 0 1-.4 1-1V8H6zM3.5 8A1.5 1.5 0 002 9.5v6a1.5 1.5 0 003 0v-6A1.5 1.5 0 003.5 8zm17 0A1.5 1.5 0 0019 9.5v6a1.5 1.5 0 003 0v-6A1.5 1.5 0 0020.5 8zM15.5 2.2l1.2-1.2-.7-.7-1.4 1.4A6 6 0 0012 1.2c-.9 0-1.7.2-2.6.5L8 .3l-.7.7 1.200 1.200A6 6 0 006 7h12a6 6 0 00-2.500-4.800zM10 5H9V4h1zm5 0h-1V4h1z"/></svg>
+          Android
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- الفوتر -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="f-brand">
+          <a href="#home" class="logo">
+            <span class="logo-mark"><i></i><i></i></span>
+            <span class="logo-text">تطبيقي</span>
+          </a>
+          <small>تطبيقك، في كل وقت</small>
+        </div>
+
+        <nav class="f-links">
+          <a href="#home">الرئيسية</a><span>|</span>
+          <a href="#features">المميزات</a><span>|</span>
+          <a href="#install">طريقة التثبيت</a><span>|</span>
+          <a href="#faq">الأسئلة الشائعة</a>
+        </nav>
+
+        <div class="socials">
+          <a href="#" aria-label="تيليجرام"><svg viewBox="0 0 24 24"><path d="M21 4L3 11l6 2 2 6 3-4 5 4z"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 24 24"><path d="M4 4l16 16M20 4L4 20"/></svg></a>
+          <a href="#" aria-label="يوتيوب"><svg viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l5 3-5 3z" fill="currentColor"/></svg></a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 تطبيقي. جميع الحقوق محفوظة.</p>
+        <p class="credit">إنشاء - <b>مريان بلال</b> - <b>زكري علاء</b></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- نافذة "قريباً" -->
+  <div class="modal" id="modal" aria-hidden="true" role="dialog" aria-labelledby="mTitle">
+    <div class="modal-box">
+      <button class="modal-x" id="modalClose" aria-label="إغلاق">&times;</button>
+      <div class="modal-ico">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+      </div>
+      <h3 id="mTitle">التطبيق سوف يتوفر قريباً</h3>
+      <p>نعمل حالياً على تجهيز التطبيق، ترقّب الإطلاق في وقت قريب.</p>
+      <button class="btn btn-primary" id="modalOk">حسناً</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
